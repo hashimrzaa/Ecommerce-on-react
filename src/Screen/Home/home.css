@@ -1,0 +1,36 @@
+.multicolortext {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+}
+
+.multi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mul {
+  font-size: 5em;
+  font-family: serif;
+  color: transparent;
+  text-align: center;
+  animation: effect 2s linear infinite;
+  
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(#008000, #00FF00);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3CE7D7, #000FFF);
+    -webkit-background-clip: text;
+  }
+}
